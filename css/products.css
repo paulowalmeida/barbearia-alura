@@ -7,6 +7,12 @@
   margin-left: 15px;
 }
 
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 nav a {
   text-transform: uppercase;
   color: #000;

@@ -1,5 +1,12 @@
 .header-container {
   background: #ccc;
+  padding: 20px 0
+}
+
+.header-box {
+  width: 940px;
+  position: relative;
+  margin: auto;
 }
 
 .navigation-container li {

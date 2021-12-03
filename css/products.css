@@ -31,6 +31,7 @@ nav a {
 .product-list {
   width: 940px;
   margin: 0 auto;
+  padding: 50px 0;
 }
 
 .product-list li {
@@ -38,7 +39,11 @@ nav a {
   text-align: center;
   width: 30%;
   vertical-align: top;
-  padding: 50px 0;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 10px;
 }
 
 .product-list h2 {
@@ -53,4 +58,5 @@ nav a {
 .product-price {
   font-size: 22px;
   font-weight: bold;
+  margin-top: 10px;
 }

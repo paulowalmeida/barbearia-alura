@@ -85,3 +85,15 @@ nav a:hover {
   font-weight: bold;
   margin-top: 10px;
 }
+
+footer {
+  text-align: center;
+  background: url('../images/bg.jpg') #ccc;
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}

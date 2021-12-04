@@ -1,0 +1,47 @@
+.header-container {
+  background: #ccc;
+  padding: 20px 0
+}
+
+.header-box {
+  width: 940px;
+  position: relative;
+  margin: auto;
+}
+
+.navigation-container ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav {
+  position: absolute;
+  top: 125px;
+  right: 0;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c79;
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  background: url('../images/bg.jpg') #ccc;
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}

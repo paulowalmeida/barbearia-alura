@@ -13,12 +13,12 @@
   display: inline;
   margin-left: 15px;
 }
-
 nav {
   position: absolute;
   top: 125px;
   right: 0;
 }
+
 
 nav a {
   text-transform: uppercase;

@@ -1,95 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8">
 
-    <title>Contato - Barbearia Alura</title>
+		<title>Contato - Barbearia Alura</title>
 
-    <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 
-    <link rel="stylesheet" href="css/contact.css">
-  </head>
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+	</head>
 
-  <body>
-    <header class="header-container">
-      <div class="header-box">
-        <h1>
-          <img src="images/logo.png">
-        </h1>
+	<body>
+		<header class="header-container">
+			<div class="header-box">
+				<h1>
+					<img
+						src="images/logo.png"
+						alt="Logo da barbearia alura">
+				</h1>
 
-        <nav class="navigation-container">
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
+				<nav class="navigation-container">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
 
-            <li>
-              <a href="products.html">Produtos</a>
-            </li>
+						<li>
+							<a href="products.html">Produtos</a>
+						</li>
 
-            <li>
-              <a href="contact.html">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+						<li>
+							<a href="contact.html">Contato</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-    <main>
-      <form>
-        <label for="complete-name">Nome Completo</label>
-        <input type="text" id="complete-name" class="input-default">
+		<main>
+			<form>
+				<label for="complete-name">Nome Completo</label>
+				<input 
+					required 
+					type="text"
+					id="complete-name"
+					class="input-default"
+					placeholder="seu nome aqui">
 
-        <label for="email">E-mail</label>
-        <input type="text" id="email" class="input-default">
+				<label for="email">E-mail</label>
+				<input 
+					required 
+					type="email"
+					id="email"
+					class="input-default"
+					placeholder="seuemailaqui@dominio.com">
 
-        <label for="phone">Telefone</label>
-        <input type="text" id="phone" class="input-default">
+				<label for="phone">Telefone</label>
+				<input 
+					required 
+					type="tel"
+					id="phone"
+					class="input-default"
+					placeholder="(XX) XXXXX-XXXX">
 
-        <label for="message">Mensagem</label>
-        <textarea cols="63" rows="10" id="message" class="input-default"></textarea>
+				<label for="message">Mensagem</label>
+				<textarea
+					required
+					cols="63"
+					rows="10"
+					id="message"
+					class="input-default">
+				</textarea>
 
-        <div>
-          <p>Como prefere o nosso contato?</p>
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
 
-          <label for="radio-email">
-            <input type="radio" name="contact" value="email" id="radio-email">
-            E-mail
-          </label>
+					<label for="radio-email">
+						<input 
+							type="radio"
+							name="contact"
+							value="email" 
+							id="radio-email">
+						E-mail
+					</label>
 
-          <label for="radio-phone">
-            <input type="radio" name="contact" value="phone" id="radio-phone">
-            Telefone
-          </label>
+					<label for="radio-phone">
+						<input 
+							type="radio"
+							name="contact"
+							value="phone" 
+							id="radio-phone">
+						Telefone
+					</label>
 
-          <label for="radio-whatsapp">
-            <input type="radio" name="contact" value="whatsapp" id="radio-whatsapp">
-            Whatsapp
-          </label>
-        </div>
+					<label for="radio-whatsapp">
+						<input 
+							type="radio"
+							name="contact"
+							value="whatsapp" 
+							id="radio-whatsapp" checked>
+						Whatsapp
+					</label>
+				</fieldset>
 
-        <div>
-          <p for="turn">Qual horário pretende ser atendido?</p>
-          <select name="turn" id="turn">
-            <option value="morning">Manhã</option>
-            <option value="afternoon">Tarde</option>
-            <option value="nigth">Noite</option>
-          </select>
-        </div>
+				<fieldset>
+					<legend for="turn">Qual horário pretende ser atendido?</legend>
 
-        <label class="receive-email">
-          <input type="checkbox">
-          Gostaria de receber nossas novidades por e-mail?
-        </label>
+					<select 
+						name="turn"
+						id="turn">
+						<option value="morning">Manhã</option>
 
-        <input type="submit" value="Enviar Dados">
-      </form>
-    </main>
+						<option value="afternoon">Tarde</option>
 
-    <footer>
-      <img src="images/logo-branco.png">
+						<option value="nigth">Noite</option>
+					</select>
+				</fieldset>
 
-      <p class="copyright">&copy; Copyright - Barbearia Alura - 2021</p>
-    </footer>
-  </body>
+				<label class="receive-email">
+					<input type="checkbox">
+					Gostaria de receber nossas novidades por e-mail?
+				</label>
+
+				<input type="submit" value="Enviar Dados">
+			</form>
+		</main>
+
+		<footer>
+			<img
+				src="images/logo-branco.png"
+				alt="Logo da barbearia alura">
+
+			<p class="copyright">&copy; Copyright - Barbearia Alura - 2021</p>
+		</footer>
+	</body>
 </html>

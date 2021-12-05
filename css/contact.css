@@ -42,17 +42,21 @@ form {
   margin: 40px 0;
 }
 
-form label {
+form label, p {
   display: block;
   font-size: 20px;
   margin-bottom: 5px;
 }
 
-form input {
+.input-default {
   display: block;
   margin-bottom: 20px;
   padding: 10px 5px;
   width: 50%;
+}
+
+.receive-email {
+  margin: 20px 0;
 }
 
 footer {

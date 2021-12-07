@@ -37,30 +37,45 @@ nav a:hover {
   text-decoration: underline;
 }
 
-#banner {
+.banner {
 	width: 100%;
 }
 
 .main-section {
 	background: #ccc;
-	padding: 30px;
+
 }
 
-.center-title {
+.main-title {
 	text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
 }
 
-p {
+.main-section p {
+  margin: 0 0 1em;
+}
+
+.main-section strong {
+  font-weight: bold;
+}
+
+.main-section em {
+  font-style: italic;
+}
+
+/* p {
 	text-align: center;
-}
+} */
 
+/* 
 #mission {
 	font-size: 20px;
-}
-
+} */
+/* 
 em strong {
 	color: #ff0000;
-}
+} */
 
 .item {
 	font-style: italic;
@@ -79,7 +94,7 @@ em strong {
 }
 
 .benefits-image {
-	width: 50%;
+	width: 60%;
 }
 
 footer {

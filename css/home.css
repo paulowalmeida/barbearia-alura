@@ -41,11 +41,6 @@ nav a:hover {
 	width: 100%;
 }
 
-.main-section {
-	background: #ccc;
-
-}
-
 .main-title {
 	text-align: center;
   font-size: 2em;
@@ -62,6 +57,13 @@ nav a:hover {
 
 .main-section em {
   font-style: italic;
+}
+
+.image-tools {
+  width: 120px;
+  float: left;
+  margin: 0 20px;
+  border-radius: 3px;
 }
 
 /* p {
@@ -84,6 +86,7 @@ em strong {
 .benefits-section {
 	background: #fff;
 	padding: 20px;
+  clear: left;  /*limpa o float*/
 }
 
 .benefits-section ul {

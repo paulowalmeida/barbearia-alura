@@ -86,6 +86,11 @@ nav a:hover {
   margin-top: 10px;
 }
 
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
 footer {
   text-align: center;
   background: url('../images/bg.jpg') #ccc;

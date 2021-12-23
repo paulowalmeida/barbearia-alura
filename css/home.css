@@ -47,6 +47,14 @@ nav a:hover {
   margin: 0 0 1em;
 }
 
+.main-title:before {
+  content: "[ ";
+}
+
+.main-title:after {
+  content: " ]";
+}
+
 .main-section {
   padding: 3em 0;
   background: #fefefe;
@@ -75,6 +83,10 @@ nav a:hover {
 
 .item {
   line-height: 1.5;
+}
+
+.item::before {
+  content: "★";
 }
 
 .item:nth-child(1) {

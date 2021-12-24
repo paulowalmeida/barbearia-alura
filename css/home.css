@@ -78,7 +78,7 @@ nav a:hover {
   width: 120px;
   float: left;
   margin: 0 20px;
-  border-radius: 3px;
+  border-radius: 0.3em;
 }
 
 .item {
@@ -129,6 +129,14 @@ nav a:hover {
 
 .benefits-image {
 	width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  border-radius: 0.3em;
+  box-shadow: 10px 10px 9px #000;
+}
+
+.benefits-image:hover{
+  opacity: 0.5;
 }
 
 .video-section {
@@ -151,4 +159,48 @@ footer {
   color: #fff;
   font-size: 13px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-box, .main-section, .benefits-content, .map, .video {
+    width: auto;
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .main-section, .map-section {
+    padding: 2em 0;
+  }
+
+  .benefits-content {
+    display: block;
+  }
+
+  .benefits-list, .benefits-image {
+    width: 100%;
+  }
+
+  .benefits-list {
+    margin-bottom: 1rem;
+  }
+
+  .item {
+    padding: 5px 10px;
+  }
+
+  .benefits-image {
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .main-title:before, .main-title:after {
+    content: "";
+  }
 }

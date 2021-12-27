@@ -127,7 +127,7 @@ nav a:hover {
   vertical-align: top;
 }
 
-.benefits-image {
+.image {
 	width: 60%;
   opacity: 1;
   transition: 400ms;
@@ -135,7 +135,7 @@ nav a:hover {
   box-shadow: 10px 10px 9px #000;
 }
 
-.benefits-image:hover{
+.image:hover{
   opacity: 0.5;
 }
 
@@ -162,7 +162,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  .header-box, .main-section, .benefits-content, .map, .video {
+  .header-box, .main-section, .benefits-content {
     width: auto;
     margin: 10px;
   }
@@ -179,11 +179,19 @@ footer {
     padding: 2em 0;
   }
 
+  .map {
+    width: 85%;
+  }
+
+  .video {
+    width: 80%;
+  }
+
   .benefits-content {
     display: block;
   }
 
-  .benefits-list, .benefits-image {
+  .benefits-list {
     width: 100%;
   }
 
@@ -195,9 +203,79 @@ footer {
     padding: 5px 10px;
   }
 
-  .benefits-image {
+  .image {
     box-shadow: none;
     border-radius: 0;
+    width: 80%;
+  }
+
+  .benefits-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-title:before, .main-title:after {
+    content: "";
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) {
+  .header-box, .main-section, .benefits-content {
+    width: auto;
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-section, .map-section {
+    padding: 2.5em 1em;
+  }
+
+  .map {
+    width: 85%;
+  }
+
+  .video {
+    width: 80%;
+  }
+
+  .map-section {
+    padding: 2.5em 3em;
+  }
+
+  .benefits-content {
+    display: block;
+  }
+
+  .benefits-list {
+    width: 100%;
+  }
+
+  .benefits-list {
+    margin-bottom: 1rem;
+  }
+
+  .item {
+    padding: 0 2em 1em;
+  }
+
+  .image {
+    box-shadow: none;
+    border-radius: 0;
+    width: 80%;
+  }
+
+  .benefits-image {
+    display: flex;
+    justify-content: center;
   }
 
   .main-title:before, .main-title:after {

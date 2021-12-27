@@ -131,3 +131,28 @@ td, th {
     margin: 0 20px;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 840px) {
+  .header-box, main {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-default, .receive-email, .submit, fieldset, table {
+    width: 80%;
+    margin: 0 20px 20px;
+  }
+
+  label {
+    margin: 0 20px;
+  }
+}

@@ -126,3 +126,25 @@ footer {
     margin: 0 60px 40px;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 840px) {
+  .header-box, .product-list, main {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-list li {
+    display: block;
+    width: auto;
+    margin: 0 60px 40px;
+  }
+}
